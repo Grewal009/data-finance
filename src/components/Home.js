@@ -1,3 +1,4 @@
+import React from 'react';
 import { TypeAnimation } from "react-type-animation";
 
 const Home = () => {
@@ -13,14 +14,20 @@ const Home = () => {
     // Same String at the start will only be typed once, initially
     'BTB',
     2000,
+    '   ',
+    500,
     'BTC',
     2000,
+    '   ',
+    500,
     'SASS',
-    2000
+    2000,
+    '   ',
+    500,
   ]}
   speed={25}
 
-  deletionSpeed={100}
+  deletionSpeed={25}
   repeat={Infinity}
 />
                     
