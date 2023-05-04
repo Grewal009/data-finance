@@ -1,4 +1,5 @@
 import Analytics from "./components/Analytics";
+import Cards from "./components/Cards";
 import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import Newsletter from "./components/Newsletter";
@@ -11,6 +12,7 @@ function App() {
       <Home />
       <Analytics />
       <Newsletter />
+      <Cards />
     </div>
   );
 }
